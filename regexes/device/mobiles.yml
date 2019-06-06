@@ -7034,7 +7034,7 @@ Siemens:
 
 # Samsung
 Samsung:
-  regex: 'SAMSUNG(?! ?Browser)|Maple |SC-(?:02[CH]|04E|01F)|N[57]100|N5110|N9100|S(?:CH|GH|PH|EC|AM|HV|HW|M)-|SMART-TV|GT-|Galaxy|(?:portalmmm|o2imode)/2\.0 [SZ]|sam[rua]|vollo Vi86[);/ ]|(?:OTV-)?SMT-E5015|ISW11SC|SCV3[1-9]|404SC'
+  regex: 'SAMSUNG(?! ?Browser)|Maple |SC-(?:02[CH]|04[EJ]|01F)|N[57]100|N5110|N9100|S(?:CH|GH|PH|EC|AM|HV|HW|M)-|SMART-TV|GT-|Galaxy|(?:portalmmm|o2imode)/2\.0 [SZ]|sam[rua]|vollo Vi86[);/ ]|(?:OTV-)?SMT-E5015|ISW11SC|SCV3[1-9]|404SC'
   device: 'smartphone'
   models:
     # explicit tv models
@@ -7731,6 +7731,8 @@ Samsung:
       device: 'phablet'
     - regex: 'SC-04E'
       model: 'GALAXY S4'
+    - regex: 'SC-04J'
+      model: 'GALAXY Feel'
     - regex: '(?:SAMSUNG-)?((?:SM-[TNP]|GT-P)[a-z0-9_\-]+)'
       device: 'tablet'
       model: '$1'
